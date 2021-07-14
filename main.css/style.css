@@ -119,6 +119,56 @@ main{
     line-height: 26px;
     margin-top: 0;
 }
+
+/* ........................................./
+..............custom part start...........  */
+ .custom h1{
+    text-align: center;
+    width: auto;
+ }
+ .team-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    width: 1090px;
+    transition: 0.5s;
+    overflow: hidden;
+    border-radius: 10px;
+   
+ }
+ .team{
+    overflow: hidden;
+    border-radius: 10px;
+ }
+ 
+ .team img{
+    width: 556.01px;
+    height: 438px;
+    border: 50px;
+    margin-top: 60px;
+    margin-right: 140px;
+ }
+.team:hover img{
+    transform: scale(1.5);
+}
+/* custom section part 2 start  */
+
+.custom-animation h1{
+    text-align: center;
+    font-size: 26px;
+}
+.footbal img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 1000px;}
+  }
+
 /* .............................................................../
 ..................Players Blog part started....................  */
 
