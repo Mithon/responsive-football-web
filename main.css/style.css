@@ -12,12 +12,11 @@ body{
 /* ............................................../
 ...........header part style started........... */
 header{
-    background-color: #2D25A0;;
+    background-color: #2D25A0;
 }
 .banner{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-   
 }
 .banner-title h1{
     color: #FFFFFF;
@@ -43,12 +42,30 @@ header{
     padding-left: 8px;
 }
 
-.banner img{
+/* ........................................../
+..............banner img.................. */
+
+.banner:hover .animation .ball img{
+    transform: translate(10px, -350px);
+}
+.banner:hover .animation .player-img img{
+    transform: translateX(40px);
+    }
+.player-img img{
     width: 556.01px;
     height: 438px;
+    border: 50px;
     margin-top: 60px;
     margin-right: 140px;
+    
 }
+.ball img{
+    width: 80px;
+    height: 80px;
+    transform: translate(40px, -300px);
+    
+}
+
 
 /* .........................................................../
 ...................header part style ended.................  */
