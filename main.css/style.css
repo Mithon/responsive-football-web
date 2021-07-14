@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+    font-family: Poppins;
+}
+.banner-title{
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 207px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
