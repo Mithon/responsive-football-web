@@ -1,5 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 688px) {
     
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
@@ -207,219 +207,227 @@ header{
     ......................Footer part Ended........................ */
   }
   
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-/* ................................/
-............common css...........  */
-body{
-    font-family: 'Poppins', sans-serif;
-    background: #FFFFFF;
-    font-family: Poppins;
-    padding: 0;
-    margin: 0;
-}
-/* ............................................../
-...........header part style started........... */
-    header{
-        background-color: #2D25A0;
-    }    
-    .banner{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-.banner-title h1{
-    color: #FFFFFF;
-    font-size: 64px;
-    margin-left: 38px;
-    margin-top: 100px;
-    margin-bottom: 27px;
-}
-.banner-icon{
-    display: inline-block;
-    font-size: 16px;
-    background-color:#E02C6D;
-    margin-left: 38px;
-    padding: 10px 24px;
-    margin-bottom: 169px;
-}
-.banner-icon a{
-    color: #FFFFFF;
-    text-decoration: none;
-}
-.banner-icon i{
-    color: #FFFFFF;
-    padding-left: 8px;
-}
-
-/* ........................................../
-..............banner img.................. */
+  
+ /* Small devices (portrait tablets and large phones, 481px to 768px) */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
     
-    .banner:hover .animation .ball img{
-        transform: translate(10px, -350px);
-    }
-    .banner:hover .animation .player-img img{
-        transform: translateX(40px);
-        }
-    .player-img img{
-        width: 556.01px;
-        height: 438px;
-        border: 50px;
-        margin-top: 60px;
-        margin-right: 140px;
-        
-    }
-    .ball img{
-        width: 80px;
-        height: 80px;
-        transform: translate(40px, -300px);
-        
-    }
-    
-    
-    /* .........................................................../
-    ...................header part style ended.................  */
-    
-    /* ............................................................./
-    .....................main part start.........................  */
-    main{
-        display: grid;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 40px;
-    }
-    /* .............................................................../
-    .......................Players Blog part started.................  */
-    
-    .container{
-        width: auto;
-    }
-    .players{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 20px;
-        grid-row-gap: 27px;
-    }
-    .player{
-        width: 330px;
-        height: 474px;
+    /* ................................/
+    ............common css...........  */
+    body{
+        font-family: 'Poppins', sans-serif;
         background: #FFFFFF;
-        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-        padding-bottom: 30px;
+        font-family: Poppins;
+        padding: 0;
+        margin: 0;
     }
-    .player img{
-        display: block;
-        width: 300px;
-        height: 256px;
-        margin: 14px auto;
-    }
-    .player-info{
-        padding-left: 14px;
-        padding-right: 14px;
-    }
-    .player-title{
-        color: #18191F;
-        font-size: 28px;
-        margin-top: 16px;
-        margin-bottom: 10px;
-    }
-    .player-info p{
-        color: #6C6C6C;
-        font-size: 16px;
-        line-height: 26px;
-        margin-top: 0;
-    }
-    
-    /* ........................................./
-    ..............custom part start...........  */
-     .custom h1{
+    /* ............................................../
+    ...........header part style started........... */
+        header{
+            background-color: #2D25A0;
+        }    
+        .banner{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    .banner-title h1{
+        color: #FFFFFF;
         text-align: center;
-        width: auto;
-     }
-     .team-img{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 15px;
-        grid-row-gap: 15px;
-        width: auto;
-        transition: 0.5s;
-        overflow: hidden;
-        border-radius: 10px;
-       
-     }
-     .team{
-        overflow: hidden;
-        border-radius: 10px;
-     }
-     
-     .team img{
-        width: 556.01px;
-        height: 438px;
-        border: 50px;
-        margin-top: 60px;
-        margin-right: 140px;
-     }
-    .team:hover img{
-        transform: scale(1.5);
+        display: inline;
+        font-size: 30px;
+        margin-left: 80px;
+        margin-top: 100px;
+        margin-bottom: 20px;
     }
-    /* custom section part 2 start  */
-    
-    .custom-animation h1{
-        text-align: center;
+    .banner-icon{
+        display: inline-block;
         font-size: 26px;
+        background-color:#E02C6D;
+        margin-left: 80px;
+        padding: 10px 24px;
+        margin-bottom: 169px;
     }
-    .footbal img{
-        width: 150px;
-        height: 150px;
-        position: relative;
-        animation: mymove 5s infinite;
+    .banner-icon a{
+        color: #FFFFFF;
+        text-decoration: none;
     }
-    @keyframes mymove {
-        from {left: 0px;}
-        to {left: 800px;}
-      }
+    .banner-icon i{
+        color: #FFFFFF;
+        padding-left: 8px;
+    }
     
-    /* .............................................................../
-    ..................Players Blog part started....................  */
-    
-    /* .............................................................../
-    ..................main part ended............................... */
-    
-    
-    /* .............................................................../
-    .....................Footer part started........................ */
-    .footer{
-        margin-top: 150px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .footer img{
-        width: 483.87px;
-        height: 110px;
-        display: block;
-        margin: auto;
-    }
-    .footer-icon{
-        display: flex;
-        justify-content: center;
-        margin-right: 80px;
-    }
-    .footer p{
-        color: #000000;
-        font-size: 18px;
-        line-height: 24px;
-        margin-right: 50px;
-    }
-    /* ............................................................../
-    ......................Footer part Ended........................ */
+    /* ........................................../
+    ..............banner img.................. */
+        
+        .banner:hover .animation .ball img{
+            transform: translate(10px, -350px);
+        }
+        .banner:hover .animation .player-img img{
+            transform: translateX(40px);
+            }
+        .player-img img{
+            width: 556.01px;
+            height: 438px;
+            border: 50px;
+            margin-top: 60px;
+            margin-right: 140px;
+            
+        }
+        .ball img{
+            width: 80px;
+            height: 80px;
+            transform: translate(40px, -300px);
+            
+        }
+        
+        
+        /* .........................................................../
+        ...................header part style ended.................  */
+        
+        /* ............................................................./
+        .....................main part start.........................  */
+        main{
+            display: grid;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+        }
+        /* .............................................................../
+        .......................Players Blog part started.................  */
+        
+        .container{
+            width: auto;
+        }
+        .players{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-gap: 20px;
+            grid-row-gap: 27px;
+        }
+        .player{
+            width: 330px;
+            height: 474px;
+            background: #FFFFFF;
+            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+            padding-bottom: 30px;
+        }
+        .player img{
+            display: block;
+            width: 300px;
+            height: 256px;
+            margin: 14px auto;
+        }
+        .player-info{
+            padding-left: 14px;
+            padding-right: 14px;
+        }
+        .player-title{
+            color: #18191F;
+            font-size: 28px;
+            margin-top: 16px;
+            margin-bottom: 10px;
+        }
+        .player-info p{
+            color: #6C6C6C;
+            font-size: 16px;
+            line-height: 26px;
+            margin-top: 0;
+        }
+        
+        /* ........................................./
+        ..............custom part start...........  */
+         .custom h1{
+            text-align: center;
+            width: auto;
+         }
+         .team-img{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-gap: 15px;
+            grid-row-gap: 15px;
+            width: auto;
+            transition: 0.5s;
+            overflow: hidden;
+            border-radius: 10px;
+           
+         }
+         .team{
+            overflow: hidden;
+            border-radius: 10px;
+         }
+         
+         .team img{
+            width: 556.01px;
+            height: 438px;
+            border: 50px;
+            margin-top: 60px;
+            margin-right: 140px;
+         }
+        .team:hover img{
+            transform: scale(1.5);
+        }
+        /* custom section part 2 start  */
+        .custom-animation h1{
+            text-align: center;
+            font-size: 26px;
+        }
+        .footbal img{
+            width: 150px;
+            height: 150px;
+            position: relative;
+            animation: mymove 5s infinite;
+        }
+        @keyframes mymove {
+            from {left: 0px;}
+            to {left: 800px;}
+          }
+        
+        /* .............................................................../
+        ..................Players Blog part started....................  */
+        
+        /* .............................................................../
+        ..................main part ended............................... */
+        
+        
+        /* .............................................................../
+        .....................Footer part started........................ */
+        .footer{
+            margin-top: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer img{
+            width: 483.87px;
+            height: 110px;
+            display: block;
+            margin: auto;
+        }
+        .footer-icon{
+            display: flex;
+            justify-content: center;
+            margin-right: 80px;
+        }
+        .footer p{
+            color: #000000;
+            font-size: 18px;
+            line-height: 24px;
+            margin-right: 50px;
+        }
+        /* ............................................................../
+        ......................Footer part Ended........................ */
   }
-  }
-  /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 769px to 1279px
+*/
+
+@media (min-width: 769px) and (max-width: 1279px) {
+  
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 /* ................................/
@@ -627,4 +635,5 @@ main{
 }
 /* ............................................................../
 ......................Footer part Ended........................ */
-  } 
+    
+  }
